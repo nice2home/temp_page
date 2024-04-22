@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className="pt-56 pb-10 xl:px-16 px-10 w-full h-full">
           <div className="grid gap-4 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-            <Panel images={images} />
+            <Panel key={1} images={images} />
             <Panel images={images} />
             <Panel images={images} />
             <Panel images={images} />
