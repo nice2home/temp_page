@@ -1,10 +1,14 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
-export default function Panel({ images }: { images: string[] }) {
+type HouseCardProps = {
+    images: string[];
+};
+
+export default function Panel({ images }: HouseCardProps) {
     return (
         <div className="bg-white h-80 rounded-3xl border border-slate-300 border-collapse shadow-md overflow-hidden flex flex-col justify-stretch">
-            <div className="grow bg-green-300">
+            <div className="grow">
                 {/* <ImageGallery className="h-full" items={images} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} infinite={true} showBullets={true} showNav={false} useWindowKeyDown={false}/> */}
                 <Splide options={{ rewind: true, cover: true, height: '240px' }} aria-label="React Splide Example">
                     {images.map((image, index) => (
@@ -16,7 +20,7 @@ export default function Panel({ images }: { images: string[] }) {
             </div>
             <div className='h-20 px-4 py-2 flex flex-col cursor-pointer' onClick={()=>'a'}>
                 <div className='w-full overflow-hidden whitespace-nowrap text-ellipsi text-[10pt] pb-1'>
-                Yiman`&#39;`s Room in New York, NY, USA
+                Yiman&#39;s Room in New York, NY, USA
                 </div>
                 <div className="flex flex-row gap-4">
                     <div className='grow overflow-hidden whitespace-nowrap'>
