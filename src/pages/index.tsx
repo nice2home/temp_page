@@ -15,9 +15,9 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
       </Head>
       <main className="w-full h-full bg-white">
-        <div className="fixed top-0 left-0 right-0 px-10 z-50 h-40 py-5 bg-white flex flex-col justify-center gap-2 shadow-md">
-          <div className="w-full flex justify-between items-center mb-8">
-            <h1 className="text-xl border-2 border-black px-2 py-1 tracking-[0.2em] font-medium" style={{ fontFamily: "quicksand"}}>B|A|Y|G|A|T|E</h1>
+        <div className="fixed top-0 left-0 right-0 xl:px-16 px-10 z-50 h-40 py-5 bg-white flex flex-col justify-center gap-2 shadow-md">
+          <div className="w-full flex justify-between items-center mb-3 mt-10">
+            <h1 className="text-3xl border-double border-4 border-black py-1 pl-2 pr-1 tracking-[0.2em] font-medium" style={{ fontFamily: "quicksand"}}>B|A|Y|G|A|T|E</h1>
             <div className="flex gap-6">
               <Link href="/login">
                 <button className="relative h-12 overflow-hidden rounded-md border border-neutral-400 bg-transparent px-6 text-neutral-950 before:absolute before:bottom-0 before:left-0 before:block before:h-full before:w-full before:-translate-x-full before:bg-neutral-100 before:transition-transform hover:before:translate-x-0"><span className="relative">
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="pt-56 pb-10 xl:px-16 px-10 w-full h-full">
-          <div className="grid gap-4 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+          <div className="grid 2xl:gap-10 gap-4 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
             <Panel key={1} images={images} />
             <Panel images={images} />
             <Panel images={images} />
