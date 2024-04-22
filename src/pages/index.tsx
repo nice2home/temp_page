@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 import Panel from "~/component/panel";
 
 export default function Home() {
+  const images = ["https://picsum.photos/id/1018/1000/600/", "https://picsum.photos/id/1015/1000/600/", "https://picsum.photos/id/1019/1000/600/"];
   return (
     <>
       <Head>
@@ -11,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-full h-full bg-white">
-        <div className="fixed top-0 left-0 right-0 m-5 mx-32 px-10 z-50 h-40 py-5 bg-white flex flex-col justify-center gap-2 shadow-[0px_4px_10px_rgba(17,17,26,0.1),_0px_8px_10px_rgba(17,17,26,0.1),_0px_10px_10px_rgba(17,17,26,0.1)] rounded-xl">
+        <div className="fixed top-0 left-0 right-0 px-10 z-50 h-40 py-5 bg-white flex flex-col justify-center gap-2 shadow-md">
           <div className="w-full flex justify-between items-center mb-8">
             <h1 className="text-3xl">Name</h1>
             <div className="flex gap-6">
@@ -40,32 +42,21 @@ export default function Home() {
 
         <div className="pt-56 pb-10 xl:px-16 px-10 w-full h-full">
           <div className="grid gap-4 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
-            <Panel />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
+            <Panel images={images} />
           </div>
         </div>
         {/* add a div for footer */}
