@@ -12,6 +12,7 @@ const mockData: HouseCardProps[] = [
       type: "Studio",
       price: 2000,
       frequency: "month",
+      id: "1",
     },
     {
       owner: "Jane",
@@ -21,6 +22,7 @@ const mockData: HouseCardProps[] = [
       type: "1 bed 1 bath",
       price: 2500,
       frequency: "month",
+      id: "2",
     },
     {
       owner: "Michael",
@@ -30,6 +32,7 @@ const mockData: HouseCardProps[] = [
       type: "2 bed 1 bath",
       price: 3000,
       frequency: "month",
+      id: "3",
     },
     {
       owner: "Emily",
@@ -39,6 +42,7 @@ const mockData: HouseCardProps[] = [
       type: "3 bed 2 bath",
       price: 4000,
       frequency: "month",
+      id: "4",
     },
     {
       owner: "David",
@@ -48,6 +52,7 @@ const mockData: HouseCardProps[] = [
       type: "4 bed 2 bath",
       price: 5000,
       frequency: "week",
+      id: "5",
     },
     {
       owner: "Sarah",
@@ -57,6 +62,7 @@ const mockData: HouseCardProps[] = [
       type: "Studio",
       price: 2200,
       frequency: "month",
+      id: "6",
     },
     {
       owner: "Daniel",
@@ -66,6 +72,7 @@ const mockData: HouseCardProps[] = [
       type: "2 bed 1 bath",
       price: 2800,
       frequency: "month",
+      id: "7",
     },
     {
       owner: "Olivia",
@@ -75,6 +82,7 @@ const mockData: HouseCardProps[] = [
       type: "1 bed 1 bath",
       price: 2400,
       frequency: "month",
+      id: "8",
     },
     {
       owner: "William",
@@ -84,6 +92,7 @@ const mockData: HouseCardProps[] = [
       type: "3 bed 2 bath",
       price: 4200,
       frequency: "month",
+      id: "9",
     },
     {
       owner: "Sophia",
@@ -93,6 +102,7 @@ const mockData: HouseCardProps[] = [
       type: "4 bed 2 bath",
       price: 4800,
       frequency: "month",
+      id: "10",
     },
     {
       owner: "Ethan",
@@ -102,6 +112,7 @@ const mockData: HouseCardProps[] = [
       type: "Studio",
       price: 2300,
       frequency: "month",
+      id: "11",
     },
     {
       owner: "Ava",
@@ -111,6 +122,7 @@ const mockData: HouseCardProps[] = [
       type: "1 bed 1 bath",
       price: 2600,
       frequency: "month",
+      id: "12",
     }
   ];
   
